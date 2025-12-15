@@ -14,11 +14,13 @@
     <nav class="nav-bar">
       <a href="/" class="logo">Pedro Azevedo</a>
       <ul class="menu-itens">
-        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#sobre">Sobre</a></li>
         <li><a href="#habilidades">Habilidades</a></li>
         <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#formulario">Formulário</a></li>
       </ul>
+        <div class="nav-actions">
+          <a href="assets/img/icones/PedroAzevedo_CV.pdf" class="btn-cv" download="Pedro-Azevedo-CV.pdf" aria-label="Download do CV">Download CV</a>
+        </div>
     </nav>
   </header>
   <hr style="background: rgb(255, 255, 255); width: 100%; height: 1px" />
@@ -28,9 +30,8 @@
 
       <section class="left">
         <h1 class="inicio-titulo">Pedro Azevedo</h1>
-        <h4 class="inicio-subtitulo">Desenvolvedor</h4>
-        <p class="inicio-texto">Estudante de Ciência da Computação na UFBA, apaixonado por tecnologia. Estou aberto a atuar em qualquer área da programação.
-</p>
+        <h4 class="inicio-subtitulo">Desenvolvedor Jr</h4>
+        <p class="inicio-texto">Estudante de Ciência da Computação (5º semestre – UFBA), buscando oportunidade de estágio ou posição júnior em desenvolvimento de software. Possuo base sólida em programação e estruturas de dados, com experiência prática em projetos acadêmicos e pessoais. Sou proativo, dedicado e focado em evoluir tecnicamente, contribuindo de forma consistente para a equipe e para os objetivos da empresa.</p>
       </section>
 
       <section class="right">
@@ -40,21 +41,21 @@
     </section>
 
     <section class="sobre" id="sobre">
-      <h2 class="titulo">Sobre mim</h2>
-      <p class="sobre-texto">
-        Sou estudante de Ciência da Computação pela UFBA (2024–2028) e comecei minha trajetória na programação em 2023. Desde então, venho aprofundando meus conhecimentos em diversas áreas do desenvolvimento de software, com ênfase em desenvolvimento web.
+      <h2 class="titulo">Sobre</h2>
+      <p class="sobre-texto">Desenvolvedor front-end em formação, construindo aplicações interativas com React e JavaScript. Tenho experiência com criação de layouts responsivos, consumo de APIs e boas práticas de versionamento com Git. Interesse em projetos que envolvam UI, performance e integração com back-end.</p>
 
-Tenho experiência com HTML, CSS, JavaScript, React, Python e C/C++, além de familiaridade com Git/GitHub, responsividade, lógica de programação e boas práticas de código. Já desenvolvi projetos próprios, como um site de e-commerce e um sistema de convite com formulário integrado.
+      <h3 class="sobre-texto">Formação</h3>
+      <p class="sobre-texto sobre-graduacao">Ciência da Computação (2024–2028) — UFBA (em andamento)</p>
 
-Estou aberto a oportunidades em qualquer área da programação ou desenvolvimento, com muita disposição para aprender e contribuir.
-      </p>
-      <h3 class="sobre-texto">Graduação:</h3>
-      <p class="sobre-texto sobre-graduacao">Ciência da Computação (2024-2028) - UFBA (em andamento)</p>
-      <h3 class="sobre-texto"> Cursos:</h3>
-      <p class="sobre-texto sobre-graduacao"> Introdução a programação em C/C++ - Tomorrow UFBA</p>
-      <p class="sobre-texto sobre-graduacao"> Lógica de Programação e Estruturas de Dados - Tomorrow UFBA</p>
-      <p class="sobre-texto sobre-graduacao"> Programação para Web com HTML e CSS - Tomorrow UFBA</p>
-      <p class="sobre-texto sobre-graduacao"> Programação de Computadores com Javascript - Tomorrow UFBA</p>
+      <h3 class="sobre-texto">Cursos</h3>
+      <ul class="sobre-lista">
+        <li>Introdução a programação em C/C++ — Tomorrow UFBA</li>
+        <li>Lógica de Programação e Estruturas de Dados — Tomorrow UFBA</li>
+        <li>Programação para Web com HTML e CSS — Tomorrow UFBA</li>
+        <li>Programação de Computadores com JavaScript — Tomorrow UFBA</li>
+      </ul>
+
+      <p class="sobre-texto">Conecte-se: <a href="https://www.linkedin.com/in/pedro-azevedo-731697138" target="_blank">LinkedIn</a> • <a href="https://github.com/pedroaas1403" target="_blank">GitHub</a></p>
     </section>
 
     <section class="habilidades" id="habilidades">
@@ -114,36 +115,49 @@ Estou aberto a oportunidades em qualquer área da programação ou desenvolvimen
         <div class="card-projeto">
           <img src="assets/img/icones/projetos/acai.png" alt="Projeto açai" />
           <h3 class="projeto-titulo">Projeto Açaí</h3>
-          <p class="projeto-tech">
-            Tecnologias Usadas: <br><br>
-            <span>HTML, CSS</span>
-          </p>
-          <p class="projeto-desc">
-            Este é um projeto de uma loja de açaí desenvolvido para ser uma página estática.
-          </p>
+          <p class="projeto-tech">Tecnologias: <span>HTML, CSS</span></p>
+          <p class="projeto-desc">Página estática de loja de açaí — layout responsivo e foco em UI.</p>
+          <p class="projeto-links"><a href="#" target="_blank" class="btn">Demo</a> <a href="https://github.com/pedroaas1403/acaoi" target="_blank" class="btn btn-outline">Código</a></p>
+          <p class="projeto-learnt"><strong>O que aprendi:</strong> organização de layout responsivo e técnicas de CSS moderno.</p>
         </div>
+
         <div class="card-projeto">
           <img src="assets/img/icones/projetos/review.png" alt="Projeto Review" />
-          <h3 class="projeto-titulo">Projeto Review de Filmes</h3>
-          <p class="projeto-tech">
-            Tecnologias Usadas: <br><br>
-            <span>HTML, CSS</span>
-          </p>
-          <p class="projeto-desc">
-            Desenvolvi um site para mandarem informações sobre algum filme ou série específico.
-          </p>
+          <h3 class="projeto-titulo">Review de Filmes</h3>
+          <p class="projeto-tech">Tecnologias: <span>HTML, CSS</span></p>
+          <p class="projeto-desc">Site para enviar e listar avaliações de filmes (versão estática).</p>
+          <p class="projeto-links"><a href="#" target="_blank" class="btn">Demo</a> <a href="https://github.com/pedroaas1403/review-filmes" target="_blank" class="btn btn-outline">Código</a></p>
+          <p class="projeto-learnt"><strong>O que aprendi:</strong> componentes de layout e acessibilidade básica.</p>
         </div>
+
         <div class="card-projeto">
           <img src="assets/img/icones/projetos/aprendendo.png" alt="Projeto aprendendo" />
-          <h3 class="projeto-titulo">Projeto Aprendendo HTML</h3>
-          <p class="projeto-tech">
-            Tecnologias Usadas: <br><br>
-            <span>HTML e CSS</span>
-          </p>
-          <p class="projeto-desc">
-            Este é um projeto web simples que utiliza HTML e CSS.
-          </p>
+          <h3 class="projeto-titulo">Aprendendo HTML</h3>
+          <p class="projeto-tech">Tecnologias: <span>HTML, CSS</span></p>
+          <p class="projeto-desc">Exercícios práticos sobre estrutura de HTML e estilização com CSS.</p>
+          <p class="projeto-links"><a href="#" target="_blank" class="btn">Demo</a> <a href="https://github.com/pedroaas1403/aprendendo-html" target="_blank" class="btn btn-outline">Código</a></p>
+          <p class="projeto-learnt"><strong>O que aprendi:</strong> semântica HTML e organização de folhas de estilo.</p>
         </div>
+
+        <!-- High-value placeholders -->
+        <div class="card-projeto">
+          <img src="assets/img/icones/projetos/weather.png" alt="Weather App" />
+          <h3 class="projeto-titulo">Weather App (placeholder)</h3>
+          <p class="projeto-tech">Tecnologias: <span>React, Fetch API, CSS</span></p>
+          <p class="projeto-desc">Aplicação que consome API de clima para mostrar previsão por cidade. (Em desenvolvimento)</p>
+          <p class="projeto-links"><a href="#" target="_blank" class="btn">Demo</a> <a href="https://github.com/pedroaas1403/weather-app" target="_blank" class="btn btn-outline">Código</a></p>
+          <p class="projeto-learnt"><strong>O que aprendi:</strong> consumo de APIs, async/await, tratamento de erros e estado em React.</p>
+        </div>
+
+        <div class="card-projeto">
+          <img src="assets/img/icones/projetos/todo.png" alt="To-Do App" />
+          <h3 class="projeto-titulo">To-Do App (placeholder)</h3>
+          <p class="projeto-tech">Tecnologias: <span>React, LocalStorage, CSS</span></p>
+          <p class="projeto-desc">Aplicação de lista de tarefas com adicionar/editar/excluir e persistência local. (Em desenvolvimento)</p>
+          <p class="projeto-links"><a href="#" target="_blank" class="btn">Demo</a> <a href="https://github.com/pedroaas1403/todo-app" target="_blank" class="btn btn-outline">Código</a></p>
+          <p class="projeto-learnt"><strong>O que aprendi:</strong> gerenciamento de estado, componentização e persistência no browser.</p>
+        </div>
+
       </div>
     </section>
 
@@ -154,29 +168,7 @@ Estou aberto a oportunidades em qualquer área da programação ou desenvolvimen
       <a href="https://github.com/pedroaas1403" target="_blank" class="github">
         <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" style="width: 24px" />
       </a>
-      <a href="mailto:jclip2005@gmail.com" target="_blank" class="email">
-        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" style="width: 24px" />
-      </a>
     </div>
-
-    <section id="formulario">
-      <h2 class="titulo">Formulário de Contato</h2>
-      <form action="https://example.com/submit" method="post">
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="telefone">Telefone:</label>
-        <input type="tel" id="telefone" name="telefone" required>
-
-        <label for="mensagem">Mensagem:</label>
-        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
-
-        <button type="submit" class="btn-inicio">Enviar</button>
-      </form>
-    </section>
   </main>
 
   <footer>
